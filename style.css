@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    display: flex;
+    \\background-color: rgb(53, 146, 44);
+
+}
+.section1 .image1{
+    margin: auto;
+    margin-bottom: 50px;
+    height: 900px;
+    width: 80%;
+    border: 1px solid black;
+}
+
+
+.section2 {
+    display: flex;
+}
+.section2 .image3{
+margin: auto;
+height: 500px;
+width: 400px;
+background-color: black;
+}
+.section2 .image2{
+    margin-left: 15px;
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    }
+    .section2 .image4{
+        margin-right: 15px;
+        height: 500px;
+        width: 400px;
+        background-color: black;
+        }
