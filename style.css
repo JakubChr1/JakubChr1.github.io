@@ -30,7 +30,7 @@ background-color: rgb(233, 223, 204);
 }
 
 h1{
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -85,14 +85,14 @@ border: 1px solid black;
 background-color: rgb(236, 227, 212);
 }
 .section2 .image2{
-    margin-left: 15px;
+    margin-left: 10px;
     height: 500px;
     width: 400px;
     border: 1px solid black;
     background-color: rgb(236, 227, 212);
     }
     .section2 .image4{
-        margin-right: 15px;
+        margin-right: 10px;
         height: 500px;
         width: 400px;
         border: 1px solid black;
@@ -256,8 +256,18 @@ text-align: center;
   text-align: center;
   font-size: 35px;
   margin-bottom: 15px;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+@media print{
+  .print{
+    display: block;
+  }
+
+
 }
