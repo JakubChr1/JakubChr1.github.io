@@ -81,21 +81,25 @@ img {
     display: flex;
     width: 400px;
 }
-.section2 .image3{
+
+.section22{
+  display: flex;
+}
+.image3{
 margin: auto;
 height: 500px;
 width: 400px;
 border: 1px solid black;
 background-color: rgb(236, 227, 212);
 }
-.section2 .image2{
+.image2{
     margin-left: 10px;
     height: 500px;
     width: 400px;
     border: 1px solid black;
     background-color: rgb(236, 227, 212);
     }
-    .section2 .image4{
+    .image4{
         margin-right: 10px;
         height: 500px;
         width: 400px;
